@@ -65,7 +65,7 @@ class _insertpageState extends State<insertpage> {
                     namestatus = true;
                     setState(() {});
                   } else if (contact.length < 10) {
-                    contactvalue = 'Enter valid number';
+                    contactvalue = 'Enter a valid number';
                     setState(() {});
                   } else {
                     String insertqry =
